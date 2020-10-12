@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
-    <title>Document</title>
+    <title>Penjualan</title>
 
     <style>
         .container {
@@ -17,17 +17,20 @@
         }
 
         .judul {
-            text-align: center;
-            background-color: #009432;
-            width: 1000px;
-            height: 80px;
-            margin-bottom: 10px;
+            text-align: justify;
+            background-color: #05c46b;
+            height: 100px;
+            width: 975px;
+            margin-bottom: 15px;
             font-family: monospace;
+            color: black;
+            padding-left: 20px;
+            padding-top: 10px;
         }
 
         .gambar {
             display: block;
-            width: 1000px;
+            width: 975px;
             height: 500px;
         }
 
@@ -39,17 +42,17 @@
         .card-header {
             background-color: black;
             color: white;
-            width: 1000px;
+            width: 975px;
             margin-top: 20px;
             text-align: center;
         }
 
         .card-header1 {
-            margin-top: 60px;
+            margin-top: 70px;
             background-color: black;
             color: white;
             text-align: center;
-            height: 25px;
+            height: 30px;
             
         }
 
@@ -62,11 +65,13 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 25px;
         }
+        
+        
     </style>
 </head>
 <body>
+    
     <div class="container">
-        <br>
         <div class="judul">
             <h2>HOODIE.IN</h2>
             <h5>Your Daily Friends</h5>     
@@ -81,15 +86,12 @@
             <img src="img/hd.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">HOODIE POLOS</h5>
-                <p>
-                <p class="card-text" style="font-size: 15px; text-align: center;"> Kode Barang = HD-001 <br>
-                    Harga = Rp. 65.000
-                </p>
-                <button class="btn btn-success" id="beli" onclick="beli()">Beli</button> 
-                <button class="btn btn-dark">Masukkan Keranjang</button>
-                <a href="#"><svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <p class="card-text" style="font-size: 18px; text-align: center;"> HD-001 <br>
+                    Rp 65.000</p>
+                <br>
+                <button class="btn btn-success" id="beli" onclick="beli()">Beli <svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-                </svg></a>
+                </svg></button> 
             </div>
         </div>
 
@@ -97,15 +99,12 @@
             <img src="img/hd1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">HOODIE TIE DYE</h5>
-                <p>
-                <p class="card-text" style="font-size: 15px; text-align: center;"> Kode Barang = HD-002 <br>
-                    Harga = Rp.85.000</p>
-                <p>
-                <button class="btn btn-success" id="beli" onclick="beli1()">Beli</button>
-                <button class="btn btn-dark">Masukkan Keranjang</button>
-                <a href="#"><svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <p class="card-text" style="font-size: 18px; text-align: center;"> HD-002 <br>
+                    Rp 85.000</p>
+                <br>
+                <button class="btn btn-success" id="beli" onclick="beli1()">Beli <svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-                </svg></a>
+                </svg></button>
             </div>
         </div>
 
@@ -113,14 +112,12 @@
             <img src="img/hd2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">HOODIE GAMBAR</h5>
-                <p class="card-text" style="font-size: 15px; text-align: center;">Kode Barang = HD-003 <br>
-                    Harga = Rp. 75.000</p>
-                <p>
-                <button class="btn btn-success" id="beli" onclick="beli2()">Beli</button>
-                <button class="btn btn-dark">Masukkan Keranjang</button>
-                <a href="#"><svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <p class="card-text" style="font-size: 18px; text-align: center;"> HD-003 <br>
+                    Rp 75.000</p>
+                <br>
+                <button class="btn btn-success" id="beli" onclick="beli2()">Beli <svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-                </svg></a>
+                </svg></button>
             </div>
         </div>
 
@@ -128,13 +125,12 @@
             <img src="img/hd3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">SWEATSHIRT</h5>
-                <p class="card-text" style="font-size: 15px; text-align: center;">Kode Barang = SS-004 <br>
-                    Harga = Rp. 55.000</p>
-                <button class="btn btn-success" id="beli" onclick="beli3()">Beli</button> 
-                <button class="btn btn-dark">Masukkan Keranjang</button>
-                <a href="#"><svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <p class="card-text" style="font-size: 18px; text-align: center;"> SS-004 <br>
+                    Rp 55.000</p>
+                    <br>
+                <button class="btn btn-success" id="beli" onclick="beli3()">Beli <svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-                </svg></a>
+                </svg></button> 
             </div>
         </div>
         </div>
@@ -142,35 +138,35 @@
         <div class="card-header1">FORM PESANAN</div>
         <br>  
         <div class="form-group row">
-            <label for="kode" class="col-sm-2 col-form-label">Nama Pembeli</label>
+            <label for="nama" class="col-sm-2 col-form-label">Nama Pembeli</label>
             <div class="col-sm-10">
             <input type="text" class="form-control" id="nama">
         </div>
     </div>
         
         <div class="form-group row">
-            <label for="nama" class="col-sm-2 col-form-label">Alamat</label>
+            <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
             <div class="col-sm-10">
             <input type="text" class="form-control" id="alamat">
         </div>
     </div>
 
         <div class="form-group row">
-            <label for="satuan" class="col-sm-2 col-form-label">Kode Barang</label>
+            <label for="kodebr" class="col-sm-2 col-form-label">Kode Barang</label>
             <div class="col-sm-10">
             <input type="text" class="form-control" id="kodebr">
         </div>
     </div>
 
         <div class="form-group row">
-            <label for="satuan" class="col-sm-2 col-form-label">Nama Barang</label>
+            <label for="namabr" class="col-sm-2 col-form-label">Nama Barang</label>
             <div class="col-sm-10">
             <input type="text" class="form-control" id="namabr">
         </div>
     </div>
 
         <div class="form-group row">
-            <label for="kategori" class="col-sm-2 col-form-label">Ukuran</label>
+            <label for="ukuran" class="col-sm-2 col-form-label">Ukuran</label>
             <div class="col-sm-10">
             <select class="form-control" id="ukuran">
                 <option>Overall</option>
@@ -180,7 +176,7 @@
     </div>
 
         <div class="form-group row">
-            <label for="stock" class="col-sm-2 col-form-label">Warna</label>
+            <label for="warna" class="col-sm-2 col-form-label">Warna</label>
             <div class="col-sm-10">
             <input type="text" class="form-control" id="warna">
         </div>
@@ -204,9 +200,26 @@
         <p>
 
         <div class="form-group row">
-            <label for="bayar" class="col-sm-2 col-form-label">Total Bayar</label>
+            <label for="bayar" class="col-sm-2 col-form-label">Total Harga</label>
             <div class="col-sm-10">
             <input type="text" class="form-control" id="bayar">
+        </div>
+    </div>
+
+        <div class="form-group row">
+            <label for="totalbayar" class="col-sm-2 col-form-label">Total Bayar</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="totalbayar">
+    </div>
+</div>
+
+        <button class="btn btn-outline-primary mt-4" onclick="kembalian()">Bayar</button>
+        <p>
+
+        <div class="form-group row">
+            <label for="kembalian" class="col-sm-2 col-form-label">Kembalian</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="kembalian">
         </div>
     </div>
 
@@ -228,7 +241,9 @@
                     <th scope="col">Warna</th>
                     <th scope="col">Jumlah</th>
                     <th scope="col">Harga</th>
+                    <th scope="col">Total Harga</th>
                     <th scope="col">Total Bayar</th>
+                    <th scope="col">Kembalian</th>
                     <th scope="col">Modify</th>
                 </tr>
                 </thead>
@@ -247,6 +262,8 @@
                 var jumlah = [];
                 var hrg = [];
                 var total = [];
+                var totaluang = [];
+                var kembaliann = [];
 
                 var tampil = document.getElementById("tampildata")
         
@@ -267,10 +284,11 @@
                     '<td>'+jumlah[i]+'</td>'+
                     '<td>'+hrg[i]+'</td>'+
                     '<td>'+total[i]+'</td>'+
+                    '<td>'+totaluang[i]+'</td>'+
+                    '<td>'+kembaliann[i]+'</td>'+
                     '<td>'+
                     '<button class="btn btn-outline-warning mr-2" onclick="edit(' + i + ')">Edit</button>'+
                     '<button class="btn btn-outline-danger mr-2" onclick="hapus(' + i + ')">Hapus</button>'+
-                    '<button class="btn btn-outline-info mr-2">Detail</button>'+
                     '</td>'+
                     '</tr>'
 
@@ -288,6 +306,9 @@
                     var jumlahbaru = document.getElementById('jumlah').value
                     var hrgbaru = document.getElementById('harga').value
                     var totalbaru = document.getElementById('bayar').value
+                    var totaluangbaru = document.getElementById('totalbayar').value
+                    var kembaliannbaru = document.getElementById('kembalian').value
+
 
                     nama.push(namabaru)
                     alamat.push(alamatbaru)
@@ -298,21 +319,23 @@
                     jumlah.push(jumlahbaru)
                     hrg.push(hrgbaru)
                     total.push (totalbaru)
+                    totaluang.push (totaluangbaru)
+                    kembaliann.push (kembaliannbaru)
+
                     
                     show()
                 }
 
                 function hitungtotal() {
-                var form = document.nama;
                 var jumlah = parseInt(document.getElementById("jumlah").value);
                 var harga = parseInt(document.getElementById("harga").value);
     
                 var bayar = document.getElementById("bayar");
 
                 var diskon;
-                if (jumlah > 10) {
+                if (jumlah >= 10) {
                 diskon = 0.5 * harga * jumlah;
-                } else if (jumlah > 5) {
+                } else if (jumlah >= 5) {
                 diskon = 0.2 * harga * jumlah;
                 } else {
                 diskon = 0;
@@ -336,6 +359,8 @@
                 document.getElementById('jumlah').value = jumlah[id];
                 document.getElementById('harga').value = hrg[id];
                 document.getElementById('bayar').value = total[id];
+                document.getElementById('totalbayar').value = totaluang[id];
+                document.getElementById('kembalian').value = kembaliann[id];
 
             baru.push(id)
 
@@ -351,6 +376,8 @@
                 var jumlahsimpan = document.getElementById('jumlah').value;
                 var hrgsimpan = document.getElementById('harga').value;
                 var bayarsimpan = document.getElementById('bayar').value;
+                var totaluangsimpan = document.getElementById('totalbayar').value;
+                var kembaliannsimpan = document.getElementById('kembalian').value;
 
                 nama[baru] = namasimpan;
                 alamat[baru] = alamatsimpan;
@@ -361,6 +388,8 @@
                 jumlah[baru] = jumlahsimpan;
                 hrg[baru] = hrgsimpan;
                 total[baru] = bayarsimpan;
+                totaluang[baru] = totaluangsimpan;
+                kembaliann[baru] = kembaliannsimpan;
 
             show()
             baru.pop()
@@ -377,6 +406,8 @@
                 jumlah.splice(id, 1);
                 hrg.splice(id, 1);
                 total.splice(id, 1);
+                totaluang.splice(id, 1);
+                kembaliann.splice(id, 1);
 
                 show();
 
@@ -432,7 +463,16 @@
                 harga.value = hargabrg;
             }
 
-            
+            function kembalian() {
+                var totalharga = parseInt(document.getElementById("bayar").value);
+                var totalbayar = parseInt(document.getElementById("totalbayar").value);
+
+                var kembalian = document.getElementById("kembalian");
+
+                var kembali = totalbayar - totalharga;
+
+                kembalian.value = kembali;
+            }
 
 </script>
 </body>
